@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sba.css">
+</head>
+<style>
+    .dropdown button{background-color: hsla(81, 54%, 85%, 1);
+    padding: 10px 15px;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsla(96, 38%, 95%, 1);
+    box-shadow: 2px 2px 5px;
+    min-width: 100px;
+    animation: mySlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.dropdown:hover .content{
+    display: block;
+}
+@keyframes mySlide{
+    from{margin-left:100%}
+     to{margin-left: 0%;}
+}
+footer img{
+    border: 5px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    }
+
+
+
+</style>
+<body>
+    <!-- <form>
+
+        <div>
+         <label for="fname">First Name:</label>
+         <input type="text" id="fname" name="fname" placeholder="Bauducco">
+        </div>
+<br>
+        <div>
+         <label for="lname">Last Name:</label>
+         <input type="text" id="lname" name="lname" placeholder="20 packs">
+        </div>
+
+    </form> -->
+    <header>
+        <nav class="navbar">
+            <ul>  
+                <li><a href="sba.html"></a> Home</li>
+                <li><a href="items.html"></a>Plants</li>
+                <li><a href="contacts.html"></a>Contact</li>
+                <img src= "./sba folder/violet daisy Small.jpeg" alt="hosta">
+
+             </ul>
+
+        </nav>
+
+    </header>
+    <h1>Contact</h1>
+    <br>
+
+
+
+              
+<!-- <!-- <h1>Thank you for visiting our page!</h1>   -->
+    <section class= "dropdown">
+        <button>Contact Us</button>
+        <div class="content">
+            <a href=""> Email: Flowers@mail.com</a>
+            <a href=""> Address: 12345 Nutrient Soil Ln.</a>
+            <a href="">Phone: 555-555-5555</a>
+            
+    </section>
+<!-- 
+    <form>
+
+        <div>
+         <label for="fname">First Name:</label>
+         <input type="text" id="fname" name="fname" placeholder="Bauducco">
+        </div>
+<br>
+        <div>
+         <label for="lname">Last Name:</label>
+         <input type="text" id="lname" name="lname" placeholder="20 packs">
+        </div>
+
+    </form> -->
+
+    <!-- <h2>Thank you for visiting our page!</h2>  -->
+        <p> Subscribe </p>
+
+<form>
+
+    <div>
+     <label for="fname">First Name:</label>
+     <input type="text" id="fname" name="fname" placeholder="Bauducco">
+    </div>
+
+<br>
+    <div>
+     <label for="lname">Last Name:</label>
+     <input type="text" id="lname" name="lname" placeholder="20 packs">
+    </div>
+
+    <div>
+    <input type="submit">
+    </div>
+
+<br>
+
+    <div>
+    <input type="reset">
+    </div>
+</form>
+
+        <img src="./plantgiphy.webp" alt="">
+        
+
+<br>
+<h2>Thank you for visiting our page!</h2> 
+
+<!-- <form>
+
+    <div>
+     <label for="fname">First Name:</label>
+     <input type="text" id="fname" name="fname" placeholder="Bauducco">
+    </div>
+<br>
+    <div>
+     <label for="lname">Last Name:</label>
+     <input type="text" id="lname" name="lname" placeholder="20 packs">
+    </div>
+
+</form> -->
+
+    <footer>
+        <img src="./floralfloor.jpg" alt=" A garden.">
+    </footer>
+    
+</body>
+</html>
